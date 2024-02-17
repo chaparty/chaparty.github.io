@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -7,18 +8,22 @@ export default function Home() {
       <Head>
         <title>Chaparty.co.uk</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6Y843D020P" />
+        <Script src="/gtag.js" />
+   
       </Head>
 
       <main>
         <img src="/banner.png" />
 
         <p className={styles.description}>
-         Coming Soon!
+          Coming Soon!
         </p>
 
       </main>
 
- 
+
 
       <style jsx>{`
         main {
