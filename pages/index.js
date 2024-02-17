@@ -21,11 +21,11 @@ gtag('config', 'G-6Y843D020P');`}
         </Script>
 
       <main>
-        <img src="/banner.png" />
+        <img src="/banner.png" style={{height: "auto", width:"100%"}}/>
 
-        <p className={styles.description}>
-          Coming Soon!
-        </p>
+        <iframe style={{border:0}} src="https://www.redbubble.com/people/chaparty/external-portfolio?count=20" width={"100%"} height={"600px"}>
+
+        </iframe>
 
       </main>
 
