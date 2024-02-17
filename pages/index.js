@@ -8,8 +8,9 @@ export default function Home() {
       <Head>
         <title>Chaparty.co.uk</title>
         <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6Y843D020P" />
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6Y843D020P" />
         <Script>
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){
@@ -18,9 +19,6 @@ function gtag(){
 gtag('js', new Date());
 gtag('config', 'G-6Y843D020P');`}
         </Script>
-
-
-      </Head>
 
       <main>
         <img src="/banner.png" />
