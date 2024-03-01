@@ -1,10 +1,10 @@
 import Card from '@/components/Card';
-import SideshowRepo from '@/repo/repo';
+import Repository from '@/repo/repo';
 import Head from 'next/head';
 import Script from 'next/script';
 
-const sideshowRepo = new SideshowRepo();
-const allData = async () => await sideshowRepo.GetAllItems();
+const repo = new Repository();
+const allData = async () => await repo.GetAllItems();
 
 export default async function Home() {
   var items = await allData();
@@ -13,10 +13,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
         <img src="/banner.png" style={{ height: "auto", width: "100%" }} />
-       <Head>
-        <title>Chaparty.co.uk</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+
       <Script id="gtag-script" async src="https://www.googletagmanager.com/gtag/js?id=G-6Y843D020P" />
       <Script id="gtag-data">
         {`window.dataLayer = window.dataLayer || [];

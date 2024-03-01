@@ -1,7 +1,7 @@
 
 import { Root } from "@/models/types";
 
-export default class SideshowRepo {
+export default class Repository {
  
 
   async GetAllItems() {
