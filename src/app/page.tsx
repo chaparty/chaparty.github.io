@@ -17,8 +17,8 @@ export default async function Home() {
         <title>Chaparty.co.uk</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6Y843D020P" />
-      <Script>
+      <Script id="gtag-script" async src="https://www.googletagmanager.com/gtag/js?id=G-6Y843D020P" />
+      <Script id="gtag-data">
         {`window.dataLayer = window.dataLayer || [];
           function gtag(){
           window.dataLayer.push(arguments)
