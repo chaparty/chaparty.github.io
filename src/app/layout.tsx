@@ -1,8 +1,9 @@
+import NavBar from '@/components/NavBar'
 import './globals.css'
 
 export const metadata = {
-  title: 'chaparty.co.uk',
-  description: 'Chaparty | Funny Indian sayings',
+  title: 'Chaparty | Buy Tote bags, stickers, greeting cards of funny indian sayings',
+  description: 'Buy hilarious Indian sayings in the form of tote bags, clothing, stickers, greeting cards and many more',
 }
 
 export default function RootLayout({
@@ -20,9 +21,11 @@ export default function RootLayout({
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <title>Chaparty.co.uk</title>
       </head>
-      <body>{children}</body>
+      <body>
+      <NavBar></NavBar>
+      <img src="/banner.png" style={{ height: "auto", width: "100%" }} />
+        {children}</body>
     </html>
   )
 }

@@ -25,10 +25,6 @@ export default class Repository {
           experience: $experience
         ) {
           ...Results
-          ...Metadata
-          ...Filters
-          ...Pagination
-          ...ArtistCollections
           __typename
         }
       }
@@ -113,136 +109,6 @@ export default class Repository {
         }
         __typename
       }
-      
-      fragment Metadata on SearchResults {
-        metadata {
-          title
-          searchContext {
-            category
-            __typename
-          }
-          resultCount
-          topic
-          searchBar {
-            iaCode
-            pillLabel
-            keywords
-            __typename
-          }
-          __typename
-        }
-        __typename
-      }
-      
-      fragment Filters on SearchResults {
-        filters {
-          resetUrl
-          staticFilters {
-            type
-            label
-            options {
-              name
-              label
-              applied
-              url
-              options {
-                name
-                label
-                applied
-                url
-                __typename
-              }
-              __typename
-            }
-            __typename
-          }
-          filters {
-            type
-            label
-            experiences {
-              name
-              value
-              __typename
-            }
-            options {
-              name
-              label
-              applied
-              disabled
-              url
-              hexColor
-              imageUrl
-              __typename
-            }
-            __typename
-          }
-          appliedCount
-          appliedPath
-          resets {
-            label
-            url
-            __typename
-          }
-          __typename
-        }
-        __typename
-      }
-      
-      fragment Pagination on SearchResults {
-        pagination {
-          currentPage
-          perPage
-          showPreviousPageLink
-          showNextPageLink
-          paginationLinks {
-            namedLinks {
-              previousPage {
-                rel
-                url
-                __typename
-              }
-              nextPage {
-                rel
-                url
-                __typename
-              }
-              __typename
-            }
-            __typename
-          }
-          fromNumber
-          toNumber
-          total
-          __typename
-        }
-        __typename
-      }
-      
-      fragment ArtistCollections on SearchResults {
-        artistCollections {
-          applied
-          options {
-            id
-            name
-            label
-            description
-            url
-            imageUrl
-            applied
-            __typename
-          }
-          reset {
-            label
-            description
-            url
-            __typename
-          }
-          type
-          label
-          __typename
-        }
-        __typename
-      }
       `,
       variables: { query: "*", queryParams: { queryParamItems: [{ name: "anchor", values: "profile" }, { name: "asc", values: "u" }, { name: "sortOrder", values: "recent" }], pageSize: 100, artistUserName: "chaparty" }, locale: "en", country: "GB", currency: "GBP", previewTypeIds:["product_close","alternate_product_close","artwork"], experience: "artists-own-shop" }
     };
@@ -262,7 +128,7 @@ export default class Repository {
 
 
     var gatheredResponses: Root = await response.json();
-    console.log(gatheredResponses);
+
     return gatheredResponses;
 
   }

@@ -1,10 +1,11 @@
 import Card from '@/components/Card';
+import ProductLinkGenerator from '@/domain/ProductLinkGenerator';
 import Repository from '@/repo/repo';
-import Head from 'next/head';
 import Script from 'next/script';
 
 const repo = new Repository();
 const allData = async () => await repo.GetAllItems();
+const productLinkGenerator = new ProductLinkGenerator();
 
 export default async function Home() {
   var items = await allData();
@@ -12,7 +13,6 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-        <img src="/banner.png" style={{ height: "auto", width: "100%" }} />
 
       <Script id="gtag-script" async src="https://www.googletagmanager.com/gtag/js?id=G-6Y843D020P" />
       <Script id="gtag-data">
@@ -27,7 +27,7 @@ export default async function Home() {
         {items.data.searchResults.results.map((item) => (
           <div key={item.work.id}>
             <Card name={item.work.title} thumbnailImageUrl={item.inventoryItem.previewSet.previews[1].url} price={item.inventoryItem.price.amount.toString()} currency={"£"}
-              url={item.inventoryItem.productPageUrl} productUrl={item.inventoryItem.productPageUrl}></Card>       
+              url={productLinkGenerator.CreateProductLink(item.inventoryItem.gaCategory,item.work.title)} productUrl={item.inventoryItem.productPageUrl}></Card>       
           </div>
         ))}
       </div>
