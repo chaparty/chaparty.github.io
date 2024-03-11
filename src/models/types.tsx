@@ -222,3 +222,13 @@ export interface Root {
     __typename: string
   }
   
+  export interface SearchResult {
+    id: string
+    name: string
+    category: string
+    description: string
+    url: string
+    externalUrl: string
+    price : string
+    imageUrls: string[]
+  }

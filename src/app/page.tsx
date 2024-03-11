@@ -4,7 +4,7 @@ import Repository from '@/repo/repo';
 import Script from 'next/script';
 
 const repo = new Repository();
-const allData = async () => await repo.GetAllItems();
+const allData = async () => await repo.GetAllItemsJson();
 const productLinkGenerator = new ProductLinkGenerator();
 
 export default async function Home() {
@@ -24,10 +24,10 @@ export default async function Home() {
           gtag('config', 'G-6Y843D020P');`}
       </Script>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2.5">
-        {items.data.searchResults.results.map((item) => (
-          <div key={item.work.id}>
-            <Card name={item.work.title} thumbnailImageUrl={item.inventoryItem.previewSet.previews[1].url} price={item.inventoryItem.price.amount.toString()} currency={"£"}
-              url={productLinkGenerator.CreateProductLink(item.inventoryItem.gaCategory,item.work.title)} productUrl={item.inventoryItem.productPageUrl}></Card>       
+        {items.map((item) => (
+          <div key={item.id}>
+            <Card name={item.name} thumbnailImageUrl={item.imageUrls[0]} price={item.price.toString()} currency={"£"}
+              url={productLinkGenerator.CreateProductLink(item.category,item.name)} productUrl={item.externalUrl}></Card>       
           </div>
         ))}
       </div>

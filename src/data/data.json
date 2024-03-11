@@ -1,3375 +1,398 @@
 [
     {
-        "inventoryItem": {
-            "id": "158939006_gnarly-seesaw_6ZXWR",
-            "marketingProductTypeId": "158939006-US-apron",
-            "description": "Apron",
-            "productTypeId": "gnarly-seesaw",
-            "productPageUrl": "https://www.redbubble.com/i/apron/Sometimes-you-just-gotta-roll-like-a-rotli-by-chaparty/158939006.6ZXWR",
-            "blankItemId": "6ZXWR",
-            "prominentMessage": null,
-            "price": {
-                "id": "871f7144022f75c39aa3e4a1f422253f",
-                "amount": 20.74,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 16.58,
-                    "percent": 20,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "b8106e20258578e2efb4d70a6816b524",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5463994917.9006/ur,apron_flatlay_front,square,600x600.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5463994917.9006/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "apron",
-            "gaCategory": "apron",
-            "attributes": [],
-            "volumeDiscount": null,
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158939006",
-            "title": "Sometimes you just gotta roll like a rotli!",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "roti",
-                "rotli",
-                "gujju",
-                "desi",
-                "humor"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 1,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158939006_gnarly-seesaw_6ZXWR",
+        "name": "Sometimes you just gotta roll like a rotli!",
+        "category": "Apron",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/apron/Sometimes-you-just-gotta-roll-like-a-rotli-by-chaparty/158939006.6ZXWR",
+        "price": 20.74,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5463994917.9006/ur,apron_flatlay_front,square,600x600.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158938933_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158938933-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Happy-Mothers-Day-from-your-little-chamchi-by-chaparty/158938933.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "aca8393b4c10cfdd671a4039056170be",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5463992952.8933/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5463992952.8933/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.2 x 6.7 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158938933",
-            "title": "Happy Mothers Day from your little chamchi",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "mothers day",
-                "spoon",
-                "gujju",
-                "desi"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 2,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158938933_sticky-runners_EJUG5",
+        "name": "Happy Mothers Day from your little chamchi",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Happy-Mothers-Day-from-your-little-chamchi-by-chaparty/158938933.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5463992952.8933/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158936783_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158936783-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Hari-Puttar-by-chaparty/158936783.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "f59d80b8dd0d4d3a399fc355b15247ed",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5463925733.6783/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5463925733.6783/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (7.6 x 9.4 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158936783",
-            "title": "Hari Puttar",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "hari puttar",
-                "indian wizard",
-                "humor"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 3,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158936783_sticky-runners_EJUG5",
+        "name": "Hari Puttar",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Hari-Puttar-by-chaparty/158936783.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5463925733.6783/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158936707_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158936707-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Maro-Gadhedo-by-chaparty/158936707.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "09dcf974db48f87ccfb9e4a32af95cc7",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5463923333.6707/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5463923333.6707/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (7.6 x 9.5 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158936707",
-            "title": "Maro Gadhedo",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "donkey",
-                "my donkey",
-                "gujju",
-                "humor",
-                "desi"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 4,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158936707_sticky-runners_EJUG5",
+        "name": "Maro Gadhedo",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Maro-Gadhedo-by-chaparty/158936707.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5463923333.6707/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158936642_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158936642-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Vecna-ni-ma-by-chaparty/158936642.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "986f1b6dd286e1072ce1c562960acc62",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5463921193.6642/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5463921193.6642/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (7.6 x 9.8 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158936642",
-            "title": "Vecna ni ma",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "spider",
-                "stranger things",
-                "vecna",
-                "number one",
-                "vecnas mother",
-                "gujju humor",
-                "desi"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 5,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158936642_sticky-runners_EJUG5",
+        "name": "Vecna ni ma",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Vecna-ni-ma-by-chaparty/158936642.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5463921193.6642/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158878604_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158878604-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Mum-Loi-na-pee-by-chaparty/158878604.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "e3bb7fcf18e0212b750b60079573dd1e",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5462003141.8604/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5462003141.8604/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (7.6 x 9.9 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158878604",
-            "title": "Mum: Loi na pee!",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "vampire",
-                "lips",
-                "indian humor",
-                "gujarati humor"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 6,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158878604_sticky-runners_EJUG5",
+        "name": "Mum: Loi na pee!",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Mum-Loi-na-pee-by-chaparty/158878604.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5462003141.8604/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158878522_cactus-bizzo_WFLAH",
-            "marketingProductTypeId": "158878522-US-classic-tee",
-            "description": "Classic T-Shirt",
-            "productTypeId": "cactus-bizzo",
-            "productPageUrl": "https://www.redbubble.com/i/t-shirt/Loi-Na-pee-by-chaparty/158878522.WFLAH.XYZ",
-            "blankItemId": "WFLAH",
-            "prominentMessage": null,
-            "price": {
-                "id": "0676639c852d1eb491a0d070a279bb8c",
-                "amount": 19.3,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "426372f70cb496524346a25cc3d5bc17",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5462000552.8522/ssrco,classic_tee,flatlay,fafafa:ca443f4786,front_alt,square_product_close,600x600.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "alternate_product_close",
-                        "url": "https://ih1.redbubble.net/image.5462000552.8522/ssrco,classic_tee,flatlay,fafafa:ca443f4786,front_alt,square_product_close,600x600.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5462000552.8522/raf,750x1000,075,t,fafafa:ca443f4786.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "classic-tshirt",
-            "gaCategory": "classic-tee",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "medium",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "M",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 6,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                },
-                {
-                    "name": "bodyColor",
-                    "value": "white",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "White",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "hexColor",
-                            "value": "fafafa",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 1,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                },
-                {
-                    "name": "printLocation",
-                    "value": "front",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Front",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 0,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtY2xhc3NpYy10ZWU6Mw==",
-                "thresholds": [
-                    {
-                        "percentOff": 15,
-                        "quantity": 3,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158878522",
-            "title": "Loi Na pee!",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "vampire",
-                "gujarati",
-                "funny",
-                "indian humor"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "alternate_product_close",
-        "groupId": "XYZ",
-        "rank": 7,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158878522_cactus-bizzo_WFLAH",
+        "name": "Loi Na pee!",
+        "category": "Classic T-Shirt",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/t-shirt/Loi-Na-pee-by-chaparty/158878522.WFLAH.XYZ",
+        "price": 19.3,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5462000552.8522/ssrco,classic_tee,flatlay,fafafa:ca443f4786,front_alt,square_product_close,600x600.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158878448_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158878448-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/The-only-I-respect-by-chaparty/158878448.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "e5ab4cc775aa2d147b43ee5646b6c8ad",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5463963308.8448/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5463963308.8448/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (7.6 x 8.4 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158878448",
-            "title": "The only  I respect",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "dosa",
-                "wand",
-                "indian",
-                "funny",
-                "chutney"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 8,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158878448_sticky-runners_EJUG5",
+        "name": "The only  I respect",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/The-only-I-respect-by-chaparty/158878448.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5463963308.8448/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158545005_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158545005-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/What-do-you-call-a-gujju-with-diabetes-Misthan-impossible-by-chaparty/158545005.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "6279521dda8329cc2c0627eb0c98b29f",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5451029475.5005/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5451029475.5005/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (7.6 x 8.4 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158545005",
-            "title": "What do you call a gujju with diabetes? Misthan impossible",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "gujarati joke",
-                "sweets",
-                "mission impossible",
-                "misthan"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 9,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158545005_sticky-runners_EJUG5",
+        "name": "What do you call a gujju with diabetes? Misthan impossible",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/What-do-you-call-a-gujju-with-diabetes-Misthan-impossible-by-chaparty/158545005.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5451029475.5005/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158544890_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158544890-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/The-name-is-Bond-Jignesh-Bond-by-chaparty/158544890.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "5d950a09f21d7eb9c54869d341cf08fe",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5451025643.4890/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5451025643.4890/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (7.1 x 10.2 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158544890",
-            "title": "The name is Bond... Jignesh Bond",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "indian bond",
-                "indian outfit",
-                "humor"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 10,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158544890_sticky-runners_EJUG5",
+        "name": "The name is Bond... Jignesh Bond",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/The-name-is-Bond-Jignesh-Bond-by-chaparty/158544890.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5451025643.4890/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158500108_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158500108-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Happy-Holi-by-chaparty/158500108.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "7d005f26ebcac342289a0a96b2ce86b2",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5449579498.0108/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5449579498.0108/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (7.2 x 10.2 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158500108",
-            "title": "Happy Holi!",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "holi",
-                "festival of colors",
-                "purple",
-                "holi festival"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 11,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158500108_sticky-runners_EJUG5",
+        "name": "Happy Holi!",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Happy-Holi-by-chaparty/158500108.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5449579498.0108/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158500045_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158500045-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Happy-Holi-by-chaparty/158500045.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "812c71f72f87ef190843547367e16699",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5449577542.0045/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5449577542.0045/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.2 x 7.2 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158500045",
-            "title": "Happy Holi ",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "holi",
-                "festival of colours",
-                "india",
-                "blue",
-                "purple",
-                "orange"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 12,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158500045_sticky-runners_EJUG5",
+        "name": "Happy Holi ",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Happy-Holi-by-chaparty/158500045.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5449577542.0045/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158499933_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158499933-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Happy-Holi-by-chaparty/158499933.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "785c363756b6f6f43e35e1f3808de711",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5449574051.9933/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5449574051.9933/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.2 x 7.2 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158499933",
-            "title": "Happy Holi!",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "festival of colours",
-                "holi",
-                "indian",
-                "purple",
-                "green",
-                "orange"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 13,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158499933_sticky-runners_EJUG5",
+        "name": "Happy Holi!",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Happy-Holi-by-chaparty/158499933.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5449574051.9933/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158499633_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158499633-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Happy-Holi-by-chaparty/158499633.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "1caf12f3e328552486c41eaa30770eb7",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5449564448.9633/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5449564448.9633/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (8.6 x 7.6 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158499633",
-            "title": "Happy Holi!",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "holi",
-                "festival of colours",
-                "family",
-                "kids playing",
-                "radha",
-                "krishna"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 14,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158499633_sticky-runners_EJUG5",
+        "name": "Happy Holi!",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Happy-Holi-by-chaparty/158499633.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5449564448.9633/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158499537_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158499537-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Wishing-you-a-happy-Holi-day-by-chaparty/158499537.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "178c420497b2df3f6e2e3a01856945bc",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5449561698.9537/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5449561698.9537/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (9.8 x 7.6 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158499537",
-            "title": "Wishing you a happy Holi-day!",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "holi",
-                "festival of colours",
-                "holiday",
-                "krishna",
-                "radha"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 15,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158499537_sticky-runners_EJUG5",
+        "name": "Wishing you a happy Holi-day!",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Wishing-you-a-happy-Holi-day-by-chaparty/158499537.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5449561698.9537/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158499436_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158499436-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Happy-Holi-by-chaparty/158499436.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "2babc8f0b5240a44fedfd7b08943b29b",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5449558446.9436/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5449558446.9436/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.2 x 7.2 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158499436",
-            "title": "Happy Holi",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "holi",
-                "colours",
-                "india",
-                "festival of colors",
-                "radha",
-                "krishna"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 16,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158499436_sticky-runners_EJUG5",
+        "name": "Happy Holi",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Happy-Holi-by-chaparty/158499436.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5449558446.9436/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158499267_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158499267-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Maro-Nasto-by-chaparty/158499267.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "036c3a156f6d7de7edb649b6d1e582db",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5449553136.9267/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5449553136.9267/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (6.7 x 10.2 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158499267",
-            "title": "Maro Nasto",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "gujarati breakfast joke",
-                "love",
-                "gujju",
-                "indian",
-                "monkey nuts"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 17,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158499267_sticky-runners_EJUG5",
+        "name": "Maro Nasto",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Maro-Nasto-by-chaparty/158499267.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5449553136.9267/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158499092_shirty-shemozzle_TGIUM",
-            "marketingProductTypeId": "158499092-US-graphic-t-shirt-dress",
-            "description": "Graphic T-Shirt Dress",
-            "productTypeId": "shirty-shemozzle",
-            "productPageUrl": "https://www.redbubble.com/i/dress/You-are-the-Gulab-to-my-Jamun-by-chaparty/158499092.TGIUM",
-            "blankItemId": "TGIUM",
-            "prominentMessage": null,
-            "price": {
-                "id": "d194719fbaa13e31f1ec55614fbea083",
-                "amount": 35.36,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "7df4dc9a46a6010855adc3e5a9c40e71",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5449548452.9092/gtdr,x1500,front,black-c,216,320,600,600-bg,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5449548452.9092/flat,750x1000,075,t.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "graphic-t-shirt-dress",
-            "gaCategory": "graphic-t-shirt-dress",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "medium",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "M",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 6,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": null,
-            "experiencesProductCard": [],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158499092",
-            "title": "You are the Gulab to my Jamun",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "gulab jamun",
-                "indian sweet",
-                "humor",
-                "love",
-                "dessert"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 18,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158499092_shirty-shemozzle_TGIUM",
+        "name": "You are the Gulab to my Jamun",
+        "category": "Graphic T-Shirt Dress",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/dress/You-are-the-Gulab-to-my-Jamun-by-chaparty/158499092.TGIUM",
+        "price": 35.36,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5449548452.9092/gtdr,x1500,front,black-c,216,320,600,600-bg,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158498961_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158498961-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Mari-Madhamakhi-by-chaparty/158498961.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "6a0b98e3e3bf22be8cf190ec35b51e55",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5449544081.8961/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5449544081.8961/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.1 x 7.3 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158498961",
-            "title": "Mari Madhamakhi",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "bee",
-                "indian",
-                "gujarati",
-                "valentines day",
-                "love"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 19,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158498961_sticky-runners_EJUG5",
+        "name": "Mari Madhamakhi",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Mari-Madhamakhi-by-chaparty/158498961.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5449544081.8961/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158498692_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158498692-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Maro-Raja-by-chaparty/158498692.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "ad170be14d8a0d7acc31104ffd049b17",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5449535723.8692/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5449535723.8692/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (6.8 x 10.2 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158498692",
-            "title": "Maro Raja",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "king",
-                "raja",
-                "indian",
-                "my king"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 20,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158498692_sticky-runners_EJUG5",
+        "name": "Maro Raja",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Maro-Raja-by-chaparty/158498692.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5449535723.8692/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158475133_frostie-brizzie_5MT14",
-            "marketingProductTypeId": "158475133-US-greeting-card",
-            "description": "Greeting Card",
-            "productTypeId": "frostie-brizzie",
-            "productPageUrl": "https://www.redbubble.com/i/greeting-card/Hey-Google-what-is-a-ghel-sapho-by-chaparty/158475133.5MT14",
-            "blankItemId": "5MT14",
-            "prominentMessage": null,
-            "price": {
-                "id": "0c06921b0379b4512d38078a9a7be71b",
-                "amount": 2.28,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "374092bbc26e5e2e69f1956de8d4898e",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5448769708.5133/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5448769708.5133/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "greeting-card",
-            "gaCategory": "greeting-card",
-            "attributes": [
-                {
-                    "name": "cardSize",
-                    "value": "4x6",
-                    "attributes": [
-                        {
-                            "name": "displayOrder",
-                            "value": 0,
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "defaultText",
-                            "value": "10 x 15 cm",
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjMvZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjEwL2dyZWV0aW5nLWNhcmQ6Y2FyZF9zaXplLTR4Njo1MA==",
-                "thresholds": [
-                    {
-                        "percentOff": 20,
-                        "quantity": 3,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 30,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 35,
-                        "quantity": 50,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158475133",
-            "title": "Hey Google, what is a ghel sapho?",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "indian",
-                "gujju",
-                "gujarati",
-                "humor",
-                "google",
-                "mustard"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 21,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158475133_frostie-brizzie_5MT14",
+        "name": "Hey Google, what is a ghel sapho?",
+        "category": "Greeting Card",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/greeting-card/Hey-Google-what-is-a-ghel-sapho-by-chaparty/158475133.5MT14",
+        "price": 2.28,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5448769708.5133/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158474839_frostie-brizzie_5MT14",
-            "marketingProductTypeId": "158474839-US-greeting-card",
-            "description": "Greeting Card",
-            "productTypeId": "frostie-brizzie",
-            "productPageUrl": "https://www.redbubble.com/i/greeting-card/Happy-Mothers-Day-Baa-by-chaparty/158474839.5MT14",
-            "blankItemId": "5MT14",
-            "prominentMessage": null,
-            "price": {
-                "id": "0c06921b0379b4512d38078a9a7be71b",
-                "amount": 2.28,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "ac2aff216ef480fef11612df9e05a9a7",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5448760804.4839/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5448760804.4839/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "greeting-card",
-            "gaCategory": "greeting-card",
-            "attributes": [
-                {
-                    "name": "cardSize",
-                    "value": "4x6",
-                    "attributes": [
-                        {
-                            "name": "displayOrder",
-                            "value": 0,
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "defaultText",
-                            "value": "10 x 15 cm",
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjMvZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjEwL2dyZWV0aW5nLWNhcmQ6Y2FyZF9zaXplLTR4Njo1MA==",
-                "thresholds": [
-                    {
-                        "percentOff": 20,
-                        "quantity": 3,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 30,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 35,
-                        "quantity": 50,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158474839",
-            "title": "Happy Mothers Day Baa",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "mother",
-                "grandmother",
-                "daughter",
-                "love",
-                "indian",
-                "gujju",
-                "gujarati"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 22,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158474839_frostie-brizzie_5MT14",
+        "name": "Happy Mothers Day Baa",
+        "category": "Greeting Card",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/greeting-card/Happy-Mothers-Day-Baa-by-chaparty/158474839.5MT14",
+        "price": 2.28,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5448760804.4839/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158474773_frostie-brizzie_5MT14",
-            "marketingProductTypeId": "158474773-US-greeting-card",
-            "description": "Greeting Card",
-            "productTypeId": "frostie-brizzie",
-            "productPageUrl": "https://www.redbubble.com/i/greeting-card/Masi-by-chaparty/158474773.5MT14",
-            "blankItemId": "5MT14",
-            "prominentMessage": null,
-            "price": {
-                "id": "0c06921b0379b4512d38078a9a7be71b",
-                "amount": 2.28,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "3965509ba22881f6dbd267b07fe8de76",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5448758830.4773/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5448758830.4773/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "greeting-card",
-            "gaCategory": "greeting-card",
-            "attributes": [
-                {
-                    "name": "cardSize",
-                    "value": "4x6",
-                    "attributes": [
-                        {
-                            "name": "displayOrder",
-                            "value": 0,
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "defaultText",
-                            "value": "10 x 15 cm",
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjMvZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjEwL2dyZWV0aW5nLWNhcmQ6Y2FyZF9zaXplLTR4Njo1MA==",
-                "thresholds": [
-                    {
-                        "percentOff": 20,
-                        "quantity": 3,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 30,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 35,
-                        "quantity": 50,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158474773",
-            "title": "Masi",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "masi",
-                "aunt",
-                "indian",
-                "humor"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 23,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158474773_frostie-brizzie_5MT14",
+        "name": "Masi",
+        "category": "Greeting Card",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/greeting-card/Masi-by-chaparty/158474773.5MT14",
+        "price": 2.28,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5448758830.4773/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158474696_frostie-brizzie_5MT14",
-            "marketingProductTypeId": "158474696-US-greeting-card",
-            "description": "Greeting Card",
-            "productTypeId": "frostie-brizzie",
-            "productPageUrl": "https://www.redbubble.com/i/greeting-card/Best-Fui-Ever-Happy-Mother-s-Day-by-chaparty/158474696.5MT14",
-            "blankItemId": "5MT14",
-            "prominentMessage": null,
-            "price": {
-                "id": "0c06921b0379b4512d38078a9a7be71b",
-                "amount": 2.28,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "79e575a71440f7d79228355f62a5c56b",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5448756494.4696/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5448756494.4696/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "greeting-card",
-            "gaCategory": "greeting-card",
-            "attributes": [
-                {
-                    "name": "cardSize",
-                    "value": "4x6",
-                    "attributes": [
-                        {
-                            "name": "displayOrder",
-                            "value": 0,
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "defaultText",
-                            "value": "10 x 15 cm",
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjMvZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjEwL2dyZWV0aW5nLWNhcmQ6Y2FyZF9zaXplLTR4Njo1MA==",
-                "thresholds": [
-                    {
-                        "percentOff": 20,
-                        "quantity": 3,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 30,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 35,
-                        "quantity": 50,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158474696",
-            "title": "Best Fui Ever - Happy Mother's Day",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "fui",
-                "flowers",
-                "butterflies",
-                "mothers day"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 24,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158474696_frostie-brizzie_5MT14",
+        "name": "Best Fui Ever - Happy Mother's Day",
+        "category": "Greeting Card",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/greeting-card/Best-Fui-Ever-Happy-Mother-s-Day-by-chaparty/158474696.5MT14",
+        "price": 2.28,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5448756494.4696/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158474490_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158474490-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Dadi-thank-you-for-helping-me-manage-your-nakamo-dikro-by-chaparty/158474490.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "7102d7bba94ae33e1a7b4ef291c6f25e",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5448750016.4490/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5448750016.4490/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.2 x 6.8 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158474490",
-            "title": "Dadi thank you for helping me manage your nakamo dikro",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "dadi",
-                "grandma",
-                "father",
-                "indian",
-                "gujarati"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 25,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158474490_sticky-runners_EJUG5",
+        "name": "Dadi thank you for helping me manage your nakamo dikro",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Dadi-thank-you-for-helping-me-manage-your-nakamo-dikro-by-chaparty/158474490.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5448750016.4490/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158474431_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158474431-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Nani-thank-you-for-helping-me-manage-your-Nakami-Dikri-by-chaparty/158474431.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "c8b88d763ebc13ccff40ab817c26620b",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5448748116.4431/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5448748116.4431/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.2 x 6.8 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158474431",
-            "title": "Nani thank you for helping me manage your Nakami Dikri",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "nani",
-                "daughter",
-                "indian",
-                "gujarati",
-                "gujju"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 26,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158474431_sticky-runners_EJUG5",
+        "name": "Nani thank you for helping me manage your Nakami Dikri",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Nani-thank-you-for-helping-me-manage-your-Nakami-Dikri-by-chaparty/158474431.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5448748116.4431/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158474298_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158474298-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Best-Masi-Ever-Happy-Mother-s-Day-by-chaparty/158474298.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "6f4732ac76c570c2e82c173f4fc4ccc0",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5448743943.4298/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5448743943.4298/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (7.2 x 10.2 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158474298",
-            "title": "Best Masi Ever - Happy Mother's Day",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "masi",
-                "mother",
-                "flowers",
-                "butterflies",
-                "indian"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 27,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158474298_sticky-runners_EJUG5",
+        "name": "Best Masi Ever - Happy Mother's Day",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Best-Masi-Ever-Happy-Mother-s-Day-by-chaparty/158474298.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5448743943.4298/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158474184_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158474184-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Tara-baap-na-ketla-taka-gya-by-chaparty/158474184.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "b7396f0bd172bd5b007733b986594094",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5448740300.4184/st,small,507x507-pad,600x600,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5448740300.4184/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.2 x 5.5 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158474184",
-            "title": "Tara baap na ketla taka gya?",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "dad",
-                "father",
-                "gujarati",
-                "humor",
-                "funny",
-                "indian"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 28,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158474184_sticky-runners_EJUG5",
+        "name": "Tara baap na ketla taka gya?",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Tara-baap-na-ketla-taka-gya-by-chaparty/158474184.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5448740300.4184/st,small,507x507-pad,600x600,f8f8f8.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158344240_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158344240-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Definition-of-Fui-by-chaparty/158344240.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "2a6eb1a59f05988992ca2d170e695bfd",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5444506108.4240/st,small,507x507-pad,600x600,f8f8f8.u2.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5444506108.4240/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.2 x 6.6 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158344240",
-            "title": "Definition of Fui",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "fui",
-                "fai",
-                "indian",
-                "gujarati",
-                "aunt",
-                "gujju"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 29,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158344240_sticky-runners_EJUG5",
+        "name": "Definition of Fui",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Definition-of-Fui-by-chaparty/158344240.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5444506108.4240/st,small,507x507-pad,600x600,f8f8f8.u2.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158344031_frostie-brizzie_5MT14",
-            "marketingProductTypeId": "158344031-US-greeting-card",
-            "description": "Greeting Card",
-            "productTypeId": "frostie-brizzie",
-            "productPageUrl": "https://www.redbubble.com/i/greeting-card/Happy-Mothers-Day-Nani-by-chaparty/158344031.5MT14",
-            "blankItemId": "5MT14",
-            "prominentMessage": null,
-            "price": {
-                "id": "0c06921b0379b4512d38078a9a7be71b",
-                "amount": 2.28,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "f74520545e45388f01222d2e808afe0b",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5444498811.4031/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.u2.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5444498811.4031/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "greeting-card",
-            "gaCategory": "greeting-card",
-            "attributes": [
-                {
-                    "name": "cardSize",
-                    "value": "4x6",
-                    "attributes": [
-                        {
-                            "name": "displayOrder",
-                            "value": 0,
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "defaultText",
-                            "value": "10 x 15 cm",
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjMvZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjEwL2dyZWV0aW5nLWNhcmQ6Y2FyZF9zaXplLTR4Njo1MA==",
-                "thresholds": [
-                    {
-                        "percentOff": 20,
-                        "quantity": 3,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 30,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 35,
-                        "quantity": 50,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158344031",
-            "title": "Happy Mothers Day Nani",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "mother",
-                "nani",
-                "grandma",
-                "gujarati",
-                "gujju",
-                "indian"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 30,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158344031_frostie-brizzie_5MT14",
+        "name": "Happy Mothers Day Nani",
+        "category": "Greeting Card",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/greeting-card/Happy-Mothers-Day-Nani-by-chaparty/158344031.5MT14",
+        "price": 2.28,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5444498811.4031/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.u2.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158343956_frostie-brizzie_5MT14",
-            "marketingProductTypeId": "158343956-US-greeting-card",
-            "description": "Greeting Card",
-            "productTypeId": "frostie-brizzie",
-            "productPageUrl": "https://www.redbubble.com/i/greeting-card/Happy-Mothers-Day-Dadi-by-chaparty/158343956.5MT14",
-            "blankItemId": "5MT14",
-            "prominentMessage": null,
-            "price": {
-                "id": "0c06921b0379b4512d38078a9a7be71b",
-                "amount": 2.28,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "434b7ca7c2e1e95ba4a41927b87fd9ef",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5444496277.3956/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.u2.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5444496277.3956/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "greeting-card",
-            "gaCategory": "greeting-card",
-            "attributes": [
-                {
-                    "name": "cardSize",
-                    "value": "4x6",
-                    "attributes": [
-                        {
-                            "name": "displayOrder",
-                            "value": 0,
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "defaultText",
-                            "value": "10 x 15 cm",
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjMvZ3JlZXRpbmctY2FyZDpjYXJkX3NpemUtNHg2OjEwL2dyZWV0aW5nLWNhcmQ6Y2FyZF9zaXplLTR4Njo1MA==",
-                "thresholds": [
-                    {
-                        "percentOff": 20,
-                        "quantity": 3,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 30,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 35,
-                        "quantity": 50,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158343956",
-            "title": "Happy Mothers Day Dadi",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "mother",
-                "grandma",
-                "baa",
-                "gujarati",
-                "gujju",
-                "dadi"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 31,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158343956_frostie-brizzie_5MT14",
+        "name": "Happy Mothers Day Dadi",
+        "category": "Greeting Card",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/greeting-card/Happy-Mothers-Day-Dadi-by-chaparty/158343956.5MT14",
+        "price": 2.28,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5444496277.3956/papergc,300x,w,f8f8f8-pad,600x600,f8f8f8.u2.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158343617_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158343617-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Baa-said-yes-by-chaparty/158343617.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "3ee234ebb4c3c2ad85d664ec0014461d",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5444484937.3617/st,small,507x507-pad,600x600,f8f8f8.u2.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5444484937.3617/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.2 x 5.7 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158343617",
-            "title": "Baa said yes",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "baa",
-                "grandma",
-                "dadi",
-                "gujarati",
-                "gujju",
-                "indian"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 32,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158343617_sticky-runners_EJUG5",
+        "name": "Baa said yes",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Baa-said-yes-by-chaparty/158343617.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5444484937.3617/st,small,507x507-pad,600x600,f8f8f8.u2.jpg"
+        ]
     },
     {
-        "inventoryItem": {
-            "id": "158343167_sticky-runners_EJUG5",
-            "marketingProductTypeId": "158343167-US-sticker",
-            "description": "Sticker",
-            "productTypeId": "sticky-runners",
-            "productPageUrl": "https://www.redbubble.com/i/sticker/Farari-Shaak-by-chaparty/158343167.EJUG5",
-            "blankItemId": "EJUG5",
-            "prominentMessage": null,
-            "price": {
-                "id": "7c6595cc0957403956524bc9374385d1",
-                "amount": 1.94,
-                "currency": "GBP",
-                "discount": {
-                    "amount": 0,
-                    "percent": 0,
-                    "__typename": "inventory_PromoDiscount"
-                },
-                "__typename": "inventory_Price"
-            },
-            "previewSet": {
-                "id": "e03386cdf01867e6e61524b980051ef8",
-                "previews": [
-                    {
-                        "previewTypeId": "product_close",
-                        "url": "https://ih1.redbubble.net/image.5444488795.3167/st,small,507x507-pad,600x600,f8f8f8.u2.jpg",
-                        "__typename": "inventory_Preview"
-                    },
-                    {
-                        "previewTypeId": "artwork",
-                        "url": "https://ih1.redbubble.net/image.5444488795.3167/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
-                        "__typename": "inventory_Preview"
-                    }
-                ],
-                "__typename": "inventory_PreviewSet"
-            },
-            "gaCode": "sticker",
-            "gaCategory": "sticker",
-            "attributes": [
-                {
-                    "name": "size",
-                    "value": "small",
-                    "attributes": [
-                        {
-                            "name": "defaultText",
-                            "value": "Small (10.2 x 7.4 cm)",
-                            "__typename": "inventory_Attribute"
-                        },
-                        {
-                            "name": "displayOrder",
-                            "value": 4,
-                            "__typename": "inventory_Attribute"
-                        }
-                    ],
-                    "__typename": "inventory_Attribute"
-                }
-            ],
-            "volumeDiscount": {
-                "id": "Vm9sdW1lRGlzY291bnQtc3RpY2tlcjo0L3N0aWNrZXI6MTA=",
-                "thresholds": [
-                    {
-                        "percentOff": 25,
-                        "quantity": 4,
-                        "__typename": "promotions_Threshold"
-                    },
-                    {
-                        "percentOff": 50,
-                        "quantity": 10,
-                        "__typename": "promotions_Threshold"
-                    }
-                ],
-                "__typename": "promotions_VolumeDiscount"
-            },
-            "experiencesProductCard": [
-                {
-                    "name": "callToAction",
-                    "value": "quickAddToCart",
-                    "__typename": "Attribute"
-                }
-            ],
-            "__typename": "inventory_InventoryItemsItem"
-        },
-        "work": {
-            "id": "158343167",
-            "title": "Farari Shaak",
-            "artistName": "chaparty",
-            "artistUserName": "chaparty",
-            "isMatureContent": false,
-            "tags": [
-                "shark",
-                "ferrari",
-                "gujarati",
-                "gujju"
-            ],
-            "__typename": "SearchResultWork"
-        },
-        "defaultPreviewTypeId": "product_close",
-        "groupId": null,
-        "rank": 33,
-        "artistIsEstablished": false,
-        "__typename": "SearchResult"
+        "id": "158343167_sticky-runners_EJUG5",
+        "name": "Farari Shaak",
+        "category": "Sticker",
+        "description": "",
+        "url": "",
+        "externalUrl": "https://www.redbubble.com/i/sticker/Farari-Shaak-by-chaparty/158343167.EJUG5",
+        "price": 1.94,
+        "imageUrls": [
+            "https://ih1.redbubble.net/image.5444488795.3167/st,small,507x507-pad,600x600,f8f8f8.u2.jpg"
+        ]
     }
 ]

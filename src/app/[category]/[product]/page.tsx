@@ -20,8 +20,7 @@ export async function generateMetadata(
     { params }: Props,
     parent: ResolvingMetadata
   ): Promise<Metadata> {
-    // read route params
-    const product = params.product;
+    // read route paramss
     const gatheredResponses = await allData();
 
   const getProduct = gatheredResponses.data.searchResults.results.find(
@@ -32,6 +31,8 @@ export async function generateMetadata(
       description: `Buy ${getProduct?.work.title} in the form of ${params.category} and many more`
     }
   }
+
+  const categories = [ "classic-tee"]
 
 
 export async function generateStaticParams() {

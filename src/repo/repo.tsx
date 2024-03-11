@@ -1,7 +1,17 @@
 
-import { Root } from "@/models/types";
+import { SearchResult, Root } from "@/models/types";
+import { readFile } from "fs/promises";
 
 export default class Repository {
+
+  async GetAllItemsJson() {
+
+
+    var collectiblesData = await readFile(process.cwd() + "/src/data/data.json", "utf-8");
+
+    var gatheredResponses: SearchResult[] = JSON.parse(collectiblesData);
+    return gatheredResponses;
+  }
 
   async GetAllItems() {
 
