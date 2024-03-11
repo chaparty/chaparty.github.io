@@ -41,7 +41,6 @@ export default async function Brand({ params }: { params: { category: string } }
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="container my-4">
         <div className="row">
           <div className="col">
             <h1>{getProducts[0]?.category || params.category}</h1>
@@ -49,13 +48,12 @@ export default async function Brand({ params }: { params: { category: string } }
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2.5">
           {getProducts.map((item) => (
-            <div className="col" key={item.id}>
+            <div key={item.id}>
               <Card name={item.name} thumbnailImageUrl={item.imageUrls[0]} price={item.price} currency={"£"}
               url={productLinkGenerator.CreateProductLink(item.category,item.name)} productUrl={item.externalUrl}></Card>       
             </div>
           ))}
         </div>
-      </div>
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import NavBar from '@/components/NavBar'
 import './globals.css'
 import BottomFooter from '@/components/Footer'
+import Script from 'next/script'
 
 export const metadata = {
   title: 'Chaparty | Buy Tote bags, stickers, greeting cards of funny indian sayings',
@@ -24,6 +25,15 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body>
+      <Script id="gtag-script" async src="https://www.googletagmanager.com/gtag/js?id=G-6Y843D020P" />
+      <Script id="gtag-data">
+        {`window.dataLayer = window.dataLayer || [];
+          function gtag(){
+          window.dataLayer.push(arguments)
+          }
+          gtag('js', new Date());
+          gtag('config', 'G-6Y843D020P');`}
+      </Script>
       <NavBar></NavBar>
       <img src="/banner.png" style={{ height: "auto", width: "100%" }} />
         {children}
