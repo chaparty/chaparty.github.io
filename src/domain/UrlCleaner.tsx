@@ -7,7 +7,7 @@ export default class UrlCleaner implements IUrlCleaner {
     }
 
     let cleanedItem = item
-      .replace(/[#|"&\s:()'".;%!]/g, "-")
+      .replace(/[#|"&\s:()'".;%!?]/g, "-")
       .replace(/---/g, "-")
       .replace(/--/g, "-")
       .trim()

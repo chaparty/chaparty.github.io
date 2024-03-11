@@ -27,7 +27,7 @@ export async function generateMetadata(
     (x) => urlCleaner.Clean(x.name) === params.product
   );
     return {
-      title: `Chaparty | Buy ${getProduct?.name}`,
+      title: `Chaparty | Buy ${getProduct?.name} ${params.category}`,
       description: `Buy ${getProduct?.name} in the form of ${params.category} and many more`
     }
   }
