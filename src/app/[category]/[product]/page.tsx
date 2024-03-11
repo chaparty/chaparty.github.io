@@ -8,7 +8,7 @@ const urlCleaner = new UrlCleaner();
 const repo = new Repository();
 const productLinkGenerator = new ProductLinkGenerator();
 
-const allData = async () => await repo.GetAllItems();
+const allData = async () => await repo.GetAllItemsJson();
 
 import type { Metadata, ResolvingMetadata } from 'next'
  
@@ -23,12 +23,12 @@ export async function generateMetadata(
     // read route paramss
     const gatheredResponses = await allData();
 
-  const getProduct = gatheredResponses.data.searchResults.results.find(
-    (x) => urlCleaner.Clean(x.work.title) === params.product
+  const getProduct = gatheredResponses.find(
+    (x) => urlCleaner.Clean(x.name) === params.product
   );
     return {
-      title: `Chaparty | Buy ${getProduct?.work.title}`,
-      description: `Buy ${getProduct?.work.title} in the form of ${params.category} and many more`
+      title: `Chaparty | Buy ${getProduct?.name}`,
+      description: `Buy ${getProduct?.name} in the form of ${params.category} and many more`
     }
   }
 
@@ -38,9 +38,9 @@ export async function generateMetadata(
 export async function generateStaticParams() {
   const gatheredResponses = await allData();
 
-  return gatheredResponses.data.searchResults.results.map((post) => ({
-    category: urlCleaner.Clean(post.inventoryItem.gaCategory),
-    product: urlCleaner.Clean(post.work.title),
+  return gatheredResponses.map((post) => ({
+    category: urlCleaner.Clean(post.category),
+    product: urlCleaner.Clean(post.name),
   }));
 }
 
@@ -51,8 +51,8 @@ export default async function Product({
 }) {
   const gatheredResponses = await allData();
 
-  const getProduct = gatheredResponses.data.searchResults.results.find(
-    (x) => urlCleaner.Clean(x.work.title) === params.product
+  const getProduct = gatheredResponses.find(
+    (x) => urlCleaner.Clean(x.name) === params.product
   );
 
   if(getProduct === undefined) {
@@ -64,9 +64,9 @@ export default async function Product({
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
     <div className="container my-4">
       <div className="grid grid-cols-11 md:grid-cols-1 gap-4 mt-2.5">
-          <div className="col" key={getProduct.work.id}>
-            <CardDetailed description={getProduct.inventoryItem.description} name={getProduct.work.title} thumbnailImageUrl={getProduct.inventoryItem.previewSet.previews[1].url} price={getProduct.inventoryItem.price.amount.toString()} currency={"£"}
-            url={productLinkGenerator.CreateProductLink(getProduct.inventoryItem.gaCategory,getProduct.work.title)} productUrl={getProduct.inventoryItem.productPageUrl}></CardDetailed>       
+          <div className="col" key={getProduct.id}>
+            <CardDetailed description={getProduct.description} name={getProduct.name} thumbnailImageUrl={getProduct.imageUrls[0]} price={getProduct.price} currency={"£"}
+            url={productLinkGenerator.CreateProductLink(getProduct.category,getProduct.name)} productUrl={getProduct.externalUrl}></CardDetailed>       
           </div>
       </div>
     </div>

@@ -11,13 +11,13 @@ type Props = {
 const urlCleaner = new UrlCleaner();
 const repo = new Repository();
 const productLinkGenerator = new ProductLinkGenerator();
-const allData = async () => await repo.GetAllItems();
+const allData = async () => await repo.GetAllItemsJson();
 
 export async function generateStaticParams() {
   const gatheredResponses = await allData();
 
-  return gatheredResponses.data.searchResults.results.map((post) => ({
-    category: urlCleaner.Clean(post.inventoryItem.gaCategory),
+  return gatheredResponses.map((post) => ({
+    category: urlCleaner.Clean(post.category),
   }));
 }
 export async function generateMetadata(
@@ -35,8 +35,8 @@ export async function generateMetadata(
 export default async function Brand({ params }: { params: { category: string } }) {
   const gatheredResponses = await allData();
 
-  const getProducts = gatheredResponses.data.searchResults.results.filter(
-    (x) => urlCleaner.Clean(x.inventoryItem.gaCategory) === params.category
+  const getProducts = gatheredResponses.filter(
+    (x) => urlCleaner.Clean(x.category) === params.category
   );
 
   return (
@@ -44,14 +44,14 @@ export default async function Brand({ params }: { params: { category: string } }
       <div className="container my-4">
         <div className="row">
           <div className="col">
-            <h1>{getProducts[0]?.inventoryItem.gaCategory || params.category}</h1>
+            <h1>{getProducts[0]?.category || params.category}</h1>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2.5">
           {getProducts.map((item) => (
-            <div className="col" key={item.work.id}>
-              <Card name={item.work.title} thumbnailImageUrl={item.inventoryItem.previewSet.previews[1].url} price={item.inventoryItem.price.amount.toString()} currency={"£"}
-              url={productLinkGenerator.CreateProductLink(item.inventoryItem.gaCategory,item.work.title)} productUrl={item.inventoryItem.productPageUrl}></Card>       
+            <div className="col" key={item.id}>
+              <Card name={item.name} thumbnailImageUrl={item.imageUrls[0]} price={item.price} currency={"£"}
+              url={productLinkGenerator.CreateProductLink(item.category,item.name)} productUrl={item.externalUrl}></Card>       
             </div>
           ))}
         </div>
