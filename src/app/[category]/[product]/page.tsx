@@ -32,9 +32,6 @@ export async function generateMetadata(
     }
   }
 
-  const categories = [ "classic-tee"]
-
-
 export async function generateStaticParams() {
   const gatheredResponses = await allData();
 
