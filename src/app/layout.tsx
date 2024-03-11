@@ -1,5 +1,6 @@
 import NavBar from '@/components/NavBar'
 import './globals.css'
+import BottomFooter from '@/components/Footer'
 
 export const metadata = {
   title: 'Chaparty | Buy Tote bags, stickers, greeting cards of funny indian sayings',
@@ -25,7 +26,10 @@ export default function RootLayout({
       <body>
       <NavBar></NavBar>
       <img src="/banner.png" style={{ height: "auto", width: "100%" }} />
-        {children}</body>
+        {children}
+      <BottomFooter></BottomFooter>
+      </body>
+      
     </html>
   )
 }

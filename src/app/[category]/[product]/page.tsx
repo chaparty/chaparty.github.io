@@ -58,9 +58,9 @@ export default async function Product({
 
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between">
     <div className="container my-4">
-      <div className="grid grid-cols-11 md:grid-cols-1 gap-4 mt-2.5">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2.5">
           <div className="col" key={getProduct.id}>
             <CardDetailed description={getProduct.description} name={getProduct.name} thumbnailImageUrl={getProduct.imageUrls[0]} price={getProduct.price} currency={"£"}
             url={productLinkGenerator.CreateProductLink(getProduct.category,getProduct.name)} productUrl={getProduct.externalUrl}></CardDetailed>       
