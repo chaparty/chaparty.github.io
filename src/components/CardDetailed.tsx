@@ -16,13 +16,13 @@ const Card = (props: CardProps) => {
 
 
 
-<div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div className="w-full max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href={props.url}>
         <img className="pl-12 pr-12 pt-8 pb-8 pb-6 mx-auto rounded-t-lg" src={props.thumbnailImageUrl} alt="product image" />
     </a>
     <div className="px-5 pb-5">
         <a href={props.url}>
-            <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{props.name}</h5>
+            <h1 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{props.name}</h1>
         </a>
         <div
               dangerouslySetInnerHTML={{ __html: props.description ?? "" }}
